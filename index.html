@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion</title>
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="top">
+                <br>Data Conversion</br>
+                <hr>
+                <div class="topContainer">From:
+                    <select id="from">
+                        <option value="select">Select any:-</option>
+                        <option value="binary">Binary</option>
+                        <option value="octal">Octal</option>
+                        <option value="decimal">Decimal</option>
+                        <option value="hexadecimal">HexaDecimal</option>
+                    </select>
+                    To:
+                    <select id="to">
+                        <option value="select">Select any:-</option>
+                        <option value="binary">Binary</option>
+                        <option value="octal">Octal</option>
+                        <option value="decimal">Decimal</option>
+                        <option value="hexadecimal">HexaDecimal</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="mid">
+                    Enter Your Numbers:
+                    <div class="midContainer">
+                        <input type="text" name="text" id="text" size="10">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <hr>
+                <div class="bottomContainer">
+                <button id="answer">Generate</button>
+            </div>
+            <div class="final">Your Answer:
+                <div class="midContainer">
+                    <input type="text" id="final" size="10">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
