@@ -273,7 +273,7 @@ generate.addEventListener('click',function(){
                     newinput = subinput+mid;
                 }
                 else if(mid.length % 4 == 0){
-                    newinput = input.value;
+                    newinput = mid;
                 }
         
                 let hexaString="";
